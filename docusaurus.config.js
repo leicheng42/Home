@@ -332,7 +332,7 @@ const config = {
         },
       ],
       navbar: {
-        title: "📚 7Wate's Wiki",
+        title: "🏠 Lei Cheng 的主页",
         hideOnScroll: true,
         // logo: {
         //   alt: 'Site Logo',
@@ -344,91 +344,91 @@ const config = {
         //   height: 32,
         // },
         items: [
-          { to: "/blog", label: "👨🏻‍🌾 博客", position: "right" },
-          {
-            position: "right",
-            label: "👨🏻‍🎓 维基",
-            items: [
-              {
-                label: "基础入门",
-                to: "/getting-started",
-              },
-              {
-                label: "程序设计语言",
-                to: "/programming-language",
-              },
-              {
-                label: "数据结构与算法",
-                to: "/structures-algorithms",
-              },
-              {
-                label: "计算机组成",
-                to: "/computer-composition",
-              },
-              {
-                label: "计算机网络",
-                to: "/computer-network",
-              },
-              {
-                label: "计算机安全",
-                to: "/computer-security",
-              },
-              {
-                label: "操作系统",
-                to: "/operating-system",
-              },
-              {
-                label: "数据库系统",
-                to: "/database-system",
-              },
-              {
-                label: "软件工程",
-                to: "/software-engineering",
-              },       
-              {
-                label: "编译原理",
-                to: "/compilation-principle",
-              },
-            ],
-          },
-          {
-            position: "right",
-            label: "👨‍💻 职业",
-            items: [
-              {
-                label: "求职之路",
-                to: "/roadmap",
-              },
-              {
-                label: "SRE 工程师",
-                to: "/sre",
-              },
-              {
-                label: "DevOps 工程师",
-                to: "/devops",
-              },
-            ]
-          },
-          {
-            position: "right",
-            label: "💼 组织",
-            items: [
-              {
-                label: "自由社区",
-                to: "/org",
-              },
-              {
-                label: "现代企业",
-                to: "/com",
-              },
-              {
-                label: "国家政府",
-                to: "/gov",
-              },
-            ]
-          },
-          { to: "/life", label: "🚴🏻‍♀️ 生活", position: "right" },
-          { to: "/journal", label: "📽️ 日志", position: "right" },
+          { to: "/blog", label: "📝 博客", position: "right" },
+          // {
+          //   position: "right",
+          //   label: "👨🏻‍🎓 维基",
+          //   items: [
+          //     {
+          //       label: "基础入门",
+          //       to: "/getting-started",
+          //     },
+          //     {
+          //       label: "程序设计语言",
+          //       to: "/programming-language",
+          //     },
+          //     {
+          //       label: "数据结构与算法",
+          //       to: "/structures-algorithms",
+          //     },
+          //     {
+          //       label: "计算机组成",
+          //       to: "/computer-composition",
+          //     },
+          //     {
+          //       label: "计算机网络",
+          //       to: "/computer-network",
+          //     },
+          //     {
+          //       label: "计算机安全",
+          //       to: "/computer-security",
+          //     },
+          //     {
+          //       label: "操作系统",
+          //       to: "/operating-system",
+          //     },
+          //     {
+          //       label: "数据库系统",
+          //       to: "/database-system",
+          //     },
+          //     {
+          //       label: "软件工程",
+          //       to: "/software-engineering",
+          //     },       
+          //     {
+          //       label: "编译原理",
+          //       to: "/compilation-principle",
+          //     },
+          //   ],
+          // },
+          // {
+          //   position: "right",
+          //   label: "👨‍💻 职业",
+          //   items: [
+          //     {
+          //       label: "求职之路",
+          //       to: "/roadmap",
+          //     },
+          //     {
+          //       label: "SRE 工程师",
+          //       to: "/sre",
+          //     },
+          //     {
+          //       label: "DevOps 工程师",
+          //       to: "/devops",
+          //     },
+          //   ]
+          // },
+          // {
+          //   position: "right",
+          //   label: "💼 组织",
+          //   items: [
+          //     {
+          //       label: "自由社区",
+          //       to: "/org",
+          //     },
+          //     {
+          //       label: "现代企业",
+          //       to: "/com",
+          //     },
+          //     {
+          //       label: "国家政府",
+          //       to: "/gov",
+          //     },
+          //   ]
+          // },
+          // { to: "/life", label: "🚴🏻‍♀️ 生活", position: "right" },
+          // { to: "/journal", label: "📽️ 日志", position: "right" },
         ],
       },
       algolia: {
