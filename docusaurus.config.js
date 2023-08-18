@@ -6,13 +6,13 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "7Wate",
-  tagline: "For Freedom",
-  url: "https://wiki.7wate.com",
+  title: "Lei Cheng's HomePage",
+  tagline: "Speed Up!",
+  url: "https://www.leicheng42.com",
   baseUrl: "/",
   onBrokenLinks: "log",
   onBrokenMarkdownLinks: "log",
-  favicon: "img/favicon.ico",
+  favicon: "img/avatar.jpg",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -34,41 +34,41 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
-          editUrl: "https://git.7wate.org/zhouzhongping/wiki/src/branch/master",
+          editUrl: "https://github.com/leicheng42/Home/tree/main",
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
           breadcrumbs: false,
         },
         blog: {
-          blogTitle: "7Wate`s Blog",
-          blogDescription: "7Wate 的个人生活和工作记录",
+          blogTitle: "Lay`s Blog",
+          blogDescription: "Lay 的博客",
           blogSidebarCount: 7,
           blogSidebarTitle: "近期文章",
           showReadingTime: true,
-          editUrl: "https://git.7wate.org/zhouzhongping/wiki/src/branch/master",
+          editUrl: "https://github.com/leicheng42/Home/tree/main",
           feedOptions: {
-            title: "7Wate`s Blog",
-            description: "7Wate 的个人生活和工作记录",
+            title: "Lay`s Blog",
+            description: "Lay 的博客",
             type: 'all',
-            copyright: `Copyright © ${new Date().getFullYear()} 7Wate, Inc.`,
+            copyright: `Copyright © ${new Date().getFullYear()} Lei Cheng, Inc.`,
           },
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
-        sitemap: {
-          changefreq: "weekly",
-          priority: 0.5,
-          filename: 'sitemap.xml',
-        },
-        googleAnalytics: {
-          trackingID: "G-MHMEL0F832",
-          anonymizeIP: true,
-        },
-        gtag: {
-          trackingID: 'G-MHMEL0F832',
-          anonymizeIP: true,
-        },
+        // sitemap: {
+        //   changefreq: "weekly",
+        //   priority: 0.5,
+        //   filename: 'sitemap.xml',
+        // },
+        // googleAnalytics: {
+        //   trackingID: "G-MHMEL0F832",
+        //   anonymizeIP: true,
+        // },
+        // gtag: {
+        //   trackingID: 'G-MHMEL0F832',
+        //   anonymizeIP: true,
+        // },
       }),
     ],
   ],
@@ -80,7 +80,7 @@ const config = {
         path: "wiki/getting-started",
         routeBasePath: "getting-started",
         sidebarPath: require.resolve("./sidebars.js"),
-        editUrl: "https://git.7wate.org/zhouzhongping/wiki/src/branch/master",
+        editUrl: "https://github.com/leicheng42/Home/tree/main",
         showLastUpdateAuthor: true,
         showLastUpdateTime: true,
         breadcrumbs: false,
@@ -312,7 +312,7 @@ const config = {
       },
     ],
 
-    "docusaurus-plugin-umami",
+    // "docusaurus-plugin-umami",
   ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -332,7 +332,7 @@ const config = {
         },
       ],
       navbar: {
-        title: "🏠 Lei Cheng 的主页",
+        title: "🏠 Lay 的主页",
         hideOnScroll: true,
         // logo: {
         //   alt: 'Site Logo',
@@ -436,13 +436,13 @@ const config = {
         appId: "8W3YJXJGF2",
         indexName: "wiki",
       },
-      umami: {
-        websiteid: "7efcd733-c232-43db-9f17-10a00c53b152",
-        src: "https://umami.7wate.org/script.js",
-      },
+      // umami: {
+      //   websiteid: "7efcd733-c232-43db-9f17-10a00c53b152",
+      //   src: "https://umami.7wate.org/script.js",
+      // },
       footer: {
         style: "dark",
-        copyright: `Copyright © ${new Date().getFullYear()} 7Wate, Inc. Built with <a href="https://www.docusaurus.cn/" target="_blank" rel="noopener noreferrer">Docusaurus</a>.<br>Powered by <a href="https://webify.cloudbase.net/" target="_blank" rel="noopener noreferrer">CloudBase Webify</a>`,
+        copyright: `Copyright © ${new Date().getFullYear()} Lei Cheng, Inc. Built with <a href="https://www.docusaurus.cn/" target="_blank" rel="noopener noreferrer">Docusaurus</a>.<br>Powered by <a href="https://vercel.com/" target="_blank" rel="noopener noreferrer">Vercel</a>`,
       },
       prism: {
         theme: lightCodeTheme,

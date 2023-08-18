@@ -13,18 +13,18 @@ const svgList = [
     title: 'github',
     Svg: require('../../static/img/github.svg').default,
     color: 'black',
-    link: 'https://github.com/7Wate/wiki',
+    link: 'https://github.com/leicheng42/Home',
   },
   {
     title: 'bilibili',
     Svg: require('../../static/img/bilibili.svg').default,
-    link: 'https://space.bilibili.com/223211771',
+    link: 'https://space.bilibili.com/73309748',
   },
   {
     title: 'wechat',
     Svg: require('../../static/img/wechat.svg').default,
     color: '#2979ff',
-    link: 'https://static.7wate.com/img/2022/06/16/d6dfd36f35293.jpg',
+    link: 'img/wechat_code.jpg',
   },
 ]
 const Svg = ({ Svg, color, title, link }) => {
