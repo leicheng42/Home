@@ -431,11 +431,11 @@ const config = {
           // { to: "/journal", label: "📽️ 日志", position: "right" },
         ],
       },
-      // algolia: {
-      //   apiKey: "5d5a02bdf02df700355c8ccd84b78d13",
-      //   appId: "8W3YJXJGF2",
-      //   indexName: "wiki",
-      // },
+      algolia: {
+        apiKey: "6d29e679fd6cfdd7256e1e15b52817dc",
+        appId: "YN0RH7UG4B",
+        indexName: "leicheng42",
+      },
       // umami: {
       //   websiteid: "7efcd733-c232-43db-9f17-10a00c53b152",
       //   src: "https://umami.7wate.org/script.js",
