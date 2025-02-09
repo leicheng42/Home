@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwiki=self.webpackChunkwiki||[]).push([[9629],{34986:e=>{e.exports=JSON.parse('[{"label":"\u7f51\u7edc\u534f\u8bae","permalink":"/computer-network/tags/\u7f51\u7edc\u534f\u8bae","count":2},{"label":"CDN","permalink":"/computer-network/tags/cdn","count":1}]')}}]);

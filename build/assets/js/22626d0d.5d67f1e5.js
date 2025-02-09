@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwiki=self.webpackChunkwiki||[]).push([[25197],{21085:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/\u5f00\u6e90","page":1,"postsPerPage":10,"totalPages":1,"totalCount":2,"blogDescription":"Lay \u7684\u535a\u5ba2","blogTitle":"Lay`s Blog"}')}}]);

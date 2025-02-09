@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwiki=self.webpackChunkwiki||[]).push([[73708],{17846:e=>{e.exports=JSON.parse('[{"label":"Linux","permalink":"/operating-system/tags/linux","count":12},{"label":"\u5f00\u6e90","permalink":"/operating-system/tags/\u5f00\u6e90","count":1}]')}}]);
